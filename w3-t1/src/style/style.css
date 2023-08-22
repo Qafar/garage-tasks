@@ -4,54 +4,83 @@
 
 * {    
     text-transform: uppercase;
+    border: none;
 }
 
 .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-items: normal;
-    align-content: normal;
     width: 85%;
     background-color: #ffcc19;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
 }
 
+.signup-form {
+    font-family: 'Antarctican Headline';
+    margin-bottom: 40px;
+}
 
-.item {    
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
+.signup-form .title {
+    font-size: 75px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+.signup-form .subtitle {
+    font-family: 'Roboto Condensed';
+    font-size: 21px;
+    margin-top: 2px;
 }
 
 .side-image {
     margin: 20px 0;
-    width: 30%;
+    width: 25%;
     height: fit-content;
 }
 
-.signup-form {
-    width: 40%;
-    font-family: 'Antarctican Headline';
+.left {
+    margin-top: 55px;
 }
 
+.right {
+    margin-top: 200px;
+}
+
+label {
+    float: left;
+    font-weight: 600;
+    font-size: 21px;
+    cursor: pointer;
+}
 
 .signup-form input {
     width: 100%;
+    margin-bottom: 10px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
-.signup-form .subtitle {
-     
-}
 
-h2 {
-    font-size: 75px;
+button {
+    background-color: #26282D;
+    color: #ffcc19;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
     font-weight: 700;
-    font-family: 'Antarctican Headline';
+    padding: 15px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: white;
+    color: #26282D;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    transition: .2s;
+    cursor: pointer;
 }
