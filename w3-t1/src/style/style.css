@@ -1,0 +1,57 @@
+@import url("./normalize.css");
+@import url("../fonts/fonts.css");
+
+
+* {    
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+    width: 85%;
+    background-color: #ffcc19;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.item {    
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.side-image {
+    margin: 20px 0;
+    width: 30%;
+    height: fit-content;
+}
+
+.signup-form {
+    width: 40%;
+    font-family: 'Antarctican Headline';
+}
+
+
+.signup-form input {
+    width: 100%;
+}
+
+.signup-form .subtitle {
+     
+}
+
+h2 {
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Antarctican Headline';
+}
