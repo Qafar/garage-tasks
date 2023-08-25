@@ -14,16 +14,42 @@
     text-transform: uppercase;
     font-weight: 700;
     transition-duration: 300ms;
+    font-family: 'Merriweather Sans';
 }
 
-.cta-btn {
+.prime-btn {
     background-color: #f4623a;
     color: white;
 }
 
-.cta-btn:hover {
+.prime-btn:hover {
     background-color: #cf5331;
     transition-duration: 300ms;
+}
+
+.second-btn {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.second-btn:hover {
+    background-color: #d3d4d5;
+    color: black;
+}
+
+hr {
+    height: 0.15rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    border: none;
+}
+
+.hero-hr {
+    background-color: #f4623a;
+}
+
+.second-hr {
+    background-color: white;
 }
 
 header {
@@ -33,31 +59,67 @@ header {
     background-position: center;
     background-size: cover;
     text-align: center;
-    font-family: 'Merriweather Sans';
     font-style: normal;
 }
 
-header h1 {
+section {    
+    text-align: center;
+    width: 100%;
+    padding: 8rem 0rem;
+}
+
+h2 {
     font-size: 56px;
     font-weight: 500;
     margin: auto;
     width: 800px;
     color: white;
+    font-family: 'Merriweather Sans';
 }
 
-header p {
-    width: 800px;
-    font-size: 1.4rem;   
+.second-h2 {    
+    font-size: 32px;
+}
+
+.subtitle {
+    width: 800px; 
     margin: auto;
     color: rgba(255, 255, 255, 0.75);
     font-family: 'Merrieweather';
 }
 
-header hr {
-    height: 0.15rem;
-    max-width: 3.25rem;
-    margin: 1.5rem auto;
+.first-subtitle {
+    font-size: 1.4rem;  
+}
+
+.second-subtitle {
+    font-size: 1.2rem;
+}
+
+.second {
     background-color: #f4623a;
-    opacity: 1;
-    border: none;
+}
+
+.download-section {
+    background-color: #212529;
+}
+
+.download-h2 {
+    color:#212529;
+    font-size: 2.1rem;
+}
+
+.download-subtitle {
+    font-size: 1.4rem;
+    color: #6c757d;
+    width: 45%;
+}
+
+footer {
+    font-family: 'Merriweather';
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: rgb(0 0 0 / 50%);
+    font-size: 14px;
 }
