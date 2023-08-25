@@ -104,15 +104,43 @@ h2 {
     background-color: #212529;
 }
 
-.download-h2 {
+.contact-h2 {
     color:#212529;
     font-size: 2.1rem;
 }
 
-.download-subtitle {
+.contact-subtitle {
     font-size: 1.4rem;
     color: #6c757d;
     width: 45%;
+}
+
+.contact-us form {
+    padding-top: 50px;
+    width: 43%;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+    font-family: 'Merriweather';
+
+}
+
+.contact-us form img {
+    width: 36px;
+    margin: 0 auto;
+}
+
+.contact-us form input, textarea {
+    padding: 1rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+}
+
+.contact-us form p {
+    color: #212529;
 }
 
 footer {
