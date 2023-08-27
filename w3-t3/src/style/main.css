@@ -7,5 +7,88 @@
 }
 
 header {
-    background-image: url();
+    background-image: url(../img/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 22rem 0;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 7rem;
+    line-height: 3rem;
+}
+
+header nav img {
+    width: 11.7rem;
+    height: auto;
+    margin: 0.5rem 0;
+    float: left;
+}
+
+header nav ul {
+    float: right;
+    text-transform: uppercase;
+    height: auto;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 2.3rem;
+    font-size: 1rem;
+}
+
+header nav ul li a {    
+    color: #fff;
+    font-family: 'Montserrat';
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #ffc800;
+}
+
+header .hero {
+    margin: -6rem 0;
+    color: #fff;
+}
+
+header .hero .subtitle {
+    font-size: 2.25rem;
+    font-style: italic;
+    font-family: 'Roboto Slab';
+    margin-bottom: 2rem;
+}
+
+header .hero .title {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-bottom: 6rem;
+}
+
+header .hero a {    
+    text-transform: uppercase;
+    background-color: #ffc800;
+    color: #fff;
+    padding: 1.5rem 2.5rem;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+header .hero a:hover {
+    background-color: #cca000;
+}
+
+footer {
+    background-color: aliceblue;    
+    padding: 22rem 0;
 }
