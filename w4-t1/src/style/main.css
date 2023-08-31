@@ -1,3 +1,4 @@
+@import url(https://fonts.bunny.net/css?family=lato:400,700,900|quicksand:400,500,600,700);
 * {
     margin: 0;
     padding: 0;
@@ -6,22 +7,62 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: antiquewhite;
-    padding: 2rem 1rem;
-    display: -webkit-flex;
+.green-bold-text{
+    color: #3BB77E;
+    font-weight: 900;
+}
+
+.slim-section {
+    padding: 0.5rem;
     display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    -webkit-align-content: center;
-    align-content: center;
-    -webkit-align-items: center;
+    font-family: 'Lato';
+    border-bottom: 0.5px solid #c0c0c0;
     align-items: center;
 }
+
+.slim-section marquee {
+    text-align: center;
+    width: 50%;
+    height: 1rem;
+    font-size: 0.88rem;
+}
+
+.slim-section .left, .right {
+    width: 25%;
+    font-size: 0.88rem;
+}
+
+.slim-section .left ul, .right ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.slim-section .left ul li, .right ul li {
+    flex-basis: auto;
+    align-self: auto;
+    color: #7e7e7e;
+    border-right: 0.5px solid #c0c0c0;
+    padding-right: 3%;
+    line-height: 10px;
+}
+
+.slim-section .left ul li:last-child, .right ul li:last-child {
+    border: none;
+}
+
+.slim-section .left ul li a:hover, .right ul li a:hover {
+    color: #333
+}
+
+header {    
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 header .nav {
     background-color: green;
@@ -38,6 +79,8 @@ header .nav {
     align-items: center;
     padding: 1rem 23rem;
 }
+
+
 
 header .logo a img {
     width: 11rem;
@@ -66,5 +109,5 @@ header .logo a img {
 }
 
 .products .card a img {
-    width: 100%;
+    width: 1rem;
 }
