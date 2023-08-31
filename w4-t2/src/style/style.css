@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: AvantGarde;
+    src: url(../fonts/AvantGardeBold/AvantGardeBold.ttf) format('truetype');
+}
+
+body {
+    background-color: #101010;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding: 4rem 12rem;
+    justify-content: space-between;
+}
+
+header a.logo h2 {    
+    color: #ffffff;
+    font-family: "AvantGarde", Sans-serif;
+    font-size: 2.14em;
+    font-weight: 900;
+}
+
+header nav ul {
+    display: flex;
+    line-height: 3rem;
+}
+
+header nav ul li {
+    padding: 0rem 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: "AvantGarde", Sans-serif;
+}
+
+
+.line {
+    width: 70px;
+    border: 1px solid #e9204f;
+    height: 1px;
+}
+
+
+.hero {
+    background-color: #000000;
+    background-image: url(../img/hero_02.jpg);
+    background-position: 70% 48%;
+    background-repeat: no-repeat;
+    background-size: 640px auto;
+    width: 100%;
+    height: 71rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: "AvantGarde", sans-serif;
+    padding: 14rem 9rem 0rem 9rem;
+}
+
+.hero .hero-column {
+    width: 55%;
+    height: 25rem;
+    display: flex;
+    padding: 1rem 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.hero .hero-column h1 {
+    color: #fff;
+    font-size: 78px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.hero .hero-column a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #e9204f;
+    width: fit-content;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.hero .hero-column a:hover {
+    color: #e9204f;
+}
+
+.hero .hero-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 32rem;
+    align-items: flex-end;
+
+}
+
+.hero .hero-row .box {
+    padding: 60px 40px;
+    background-color: #1b1b1b;
+    width: 31.5%;
+    display: flex;
+    flex-direction: column;
+    transition: 700ms;
+}
+
+.hero .hero-row .box:first-child {
+    background-color: #e9204f;
+}
+
+.hero .hero-row .box:first-child i {
+    color: #fff;
+}
+
+.hero .hero-row .box:hover {
+    background-color: #e9204f;
+}
+
+.hero .hero-row .box:hover i {
+    color: #fff;
+    transition: 700ms;
+}
+
+.hero .hero-row .box i {
+    font-size: 48px;
+    margin: 0px 0px 60px 0px;
+    color: #e9204f;
+    transition: 700ms;
+}
+
+.hero .hero-row .box h3 {
+    color: #ffffff;
+    font-family: "AvantGarde", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin: 0px 0px 5px 0px;
+}
+
+.hero .hero-row .box hr {
+    background-color: #ffffff;
+    height: 3px;
+    margin: 0px 0px 20px 0px;
+    width: 3rem;
+}
+
+.hero .hero-row .box p {
+    color: #ffffff;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+}
