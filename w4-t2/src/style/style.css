@@ -63,7 +63,6 @@ header nav ul li a {
     width: 100%;
     height: 71rem;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
     font-family: "AvantGarde", sans-serif;
     padding: 14rem 9rem 0rem 9rem;
