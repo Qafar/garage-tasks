@@ -212,6 +212,7 @@ header nav ul li a {
     height: 3px;
     margin: 0px 0px 20px 0px;
     width: 3rem;
+    border: none;
 }
 
 .hero .hero-row .box p {
