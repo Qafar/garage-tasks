@@ -39,26 +39,17 @@
 }
 
 .menu-item-underline:hover::before {
-    width: 20px !important;
+    width: 20px;
     background-color: #E9204F;
     content:'';
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 0;
     height: 2px;
     transform: scaleX(1);
 }
 
 .regular-section-line::before {
-    /* position: absolute;
-    content: "";
-    background-color: #E9204F;
-    height: 70px;
-    width: calc( 100% + 20px );
-    bottom: -20px;
-    z-index: -1; */
-
     content: '';
     background-color: #e9204f;
     height: 60px;
@@ -105,6 +96,7 @@ header nav ul li a {
     font-family: "AvantGarde", Sans-serif;
     position: relative;
     padding: 5px 0;
+    width: 0;
 }
 
 
