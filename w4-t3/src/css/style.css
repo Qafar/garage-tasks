@@ -152,12 +152,16 @@ header {
   .navbar, .menu {
     display: none;
   }
-  .container {
-    margin: auto;
-    display: flex;
-    padding: 10rem 10rem;
+  .primal {
     width: 100%;
-    flex-direction: column;
-    background-color: red;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "SF Pro Display";
+    background-color: #f6f7f8;
+  }
+  .lg-navbar aside {
+    height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
