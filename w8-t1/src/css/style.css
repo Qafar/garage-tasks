@@ -2,6 +2,11 @@ html, body {
   height: 100%;
 }
 
+main {
+  align-items: center;
+  flex-direction: column;
+}
+
 body {
   display: flex;
   align-items: center;
